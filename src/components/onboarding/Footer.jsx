@@ -57,7 +57,7 @@ const Footer = ({ currentSlideIndex, goToNextSlide }) => {
             <TouchableOpacity
               style={{
                 height: 50,
-                width: width - 230,
+                width: width - 200,
                 borderRadius: 50,
                 backgroundColor: COLORS.primary,
                 justifyContent: 'center',
@@ -93,7 +93,7 @@ const Footer = ({ currentSlideIndex, goToNextSlide }) => {
               onPress={goToNextSlide}
               style={{
                 height: 50,
-                width: width - 230,
+                width: width - 200,
                 borderRadius: 50,
                 backgroundColor: COLORS.primary,
                 justifyContent: 'center',

@@ -9,9 +9,10 @@ import {
   StatusBar,
   Dimensions,
 } from 'react-native';
-import Footer from '../../components/onboarding/Footer';
 import { COLORS } from '../../constants';
 import { slides } from '../../dummies/data';
+import Footer from '../../components/onboarding/Footer';
+import FloatLogoComp from '../../components/onboarding/FloatLogoComp';
 
 const { width, height } = Dimensions.get('window');
 
@@ -68,6 +69,7 @@ const OnboardingScreen = ({ navigation }) => {
         currentSlideIndex={currentSlideIndex}
         goToNextSlide={goToNextSlide}
       />
+      <FloatLogoComp />
     </SafeAreaView>
   );
 };
